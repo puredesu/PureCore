@@ -1,0 +1,6 @@
+name: PureCore
+version: '${project.version}'
+main: net.puredesu.purecore.PureCore
+api-version: 1.18
+authors: [ Puredesu ]
+description: PureCore base plugin.
