@@ -9,7 +9,6 @@ public final class PureCore extends JavaPlugin {
     public void onEnable() {
         getConfig().options().copyDefaults();
         saveDefaultConfig();
-
         getCommand("testing").setExecutor(new TestingCommand(this));
     }
 }
